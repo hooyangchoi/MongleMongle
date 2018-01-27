@@ -1,0 +1,337 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-optimize
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll"
+-r:Assets/Demigiant/DemiLib/Core/DemiLib.dll
+-r:Assets/Demigiant/DOTween/DOTween.dll
+-r:Assets/Demigiant/DOTween/DOTween43.dll
+-r:Assets/Demigiant/DOTween/DOTween46.dll
+-r:Assets/Demigiant/DOTween/DOTween50.dll
+-r:Assets/Demigiant/DOTweenPro/DOTweenPro.dll
+-r:C:/Users/wando/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/Users/wando/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+Assets/02.Script/Controller/GameController.cs
+Assets/02.Script/Controller/StageController.cs
+Assets/02.Script/ETC/CSVReader.cs
+Assets/02.Script/ETC/DontDestroy.cs
+Assets/02.Script/GameData.cs
+Assets/02.Script/PointerMaker.cs
+Assets/02.Script/PointLineDrawer.cs
+Assets/02.Script/UI/InfinitiButton.cs
+Assets/02.Script/UI/LobbyUIController.cs
+Assets/02.Script/VO/PointerContainerVO.cs
+Assets/02.Script/VO/PointerVO.cs
+Assets/02.Script/VO/StageVO.cs
+Assets/02.Script/VO/ThemeVO.cs
+Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs
+Assets/unity-ui-extensions/Examples/ComboBox/ComboBoxChanged.cs
+Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_Image.cs
+Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_SAUIM.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01Scene.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollViewCell.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02Scene.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollView.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewContext.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs
+Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewContext.cs
+Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationScript.cs
+Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs
+Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/AwesomeMenu.cs
+Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs
+Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs
+Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs
+Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs
+Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs
+Assets/unity-ui-extensions/Examples/TextEffects/AnimateEffects.cs
+Assets/unity-ui-extensions/Examples/TextEffects/testHref.cs
+Assets/unity-ui-extensions/Examples/UILineRenderer/LineRendererOrbit.cs
+Assets/unity-ui-extensions/Examples/UILineRenderer/TestAddingPoints.cs
+Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs
+Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs
+Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs
+Assets/unity-ui-extensions/Scripts/Controls/InputFocus.cs
+Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs
+Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs
+Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs
+Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs
+Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs
+Assets/unity-ui-extensions/Scripts/Controls/SegmentedControl.cs
+Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs
+Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs
+Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs
+Assets/unity-ui-extensions/Scripts/Controls/Stepper.cs
+Assets/unity-ui-extensions/Scripts/Controls/TextPic.cs
+Assets/unity-ui-extensions/Scripts/Controls/UI_Knob.cs
+Assets/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIGraphic.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIText.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurvedText.cs
+Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs
+Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs
+Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs
+Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs
+Assets/unity-ui-extensions/Scripts/Effects/MonoSpacing.cs
+Assets/unity-ui-extensions/Scripts/Effects/NicerOutline.cs
+Assets/unity-ui-extensions/Scripts/Effects/RaycastMask.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShineEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs
+Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs
+Assets/unity-ui-extensions/Scripts/Effects/UIFlippable.cs
+Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs
+Assets/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs
+Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs
+Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs
+Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs
+Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs
+Assets/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs
+Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/Layout/IScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs
+Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs
+Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs
+Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs
+Assets/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs
+Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs
+Assets/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs
+Assets/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/MenuSystem/Menu.cs
+Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs
+Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs
+Assets/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UIGridRenderer.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs
+Assets/unity-ui-extensions/Scripts/TabNavigationHelper.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs
+Assets/unity-ui-extensions/Scripts/UIWindowBase.cs
+Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs
+Assets/unity-ui-extensions/Scripts/Utilities/CableCurve.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs
+Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs
+Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs
+Assets/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs
+Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs
+Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs
+Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs
+Assets/unity-ui-extensions/Scripts/Utilities/SelectableScaler.cs
+Assets/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs
+Assets/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs
+Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UIHighlightable.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs
+"Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs"
+"Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs"
+-r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

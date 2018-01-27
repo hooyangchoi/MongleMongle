@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\git\MongleMongle\MongleMongle\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="997bed8c5290bdbae5c8767ba09af501f19e1c08">
+        <dex dex="C:\git\MongleMongle\MongleMongle\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_1d3e6a06c92a3e8382e9e5d4bcd805edcf76d6c2.jar" />
+    </item>
+
+</items>

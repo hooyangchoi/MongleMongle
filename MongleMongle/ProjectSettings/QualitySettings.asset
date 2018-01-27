@@ -149,7 +149,7 @@ QualitySettings:
   - serializedVersion: 2
     name: Ultra
     pixelLightCount: 4
-    shadows: 2
+    shadows: 0
     shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 4
@@ -158,15 +158,15 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-    blendWeights: 4
+    blendWeights: 1
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 2
+    antiAliasing: 0
     softParticles: 1
     softVegetation: 1
-    realtimeReflectionProbes: 1
-    billboardsFaceCameraPosition: 1
-    vSyncCount: 0
+    realtimeReflectionProbes: 0
+    billboardsFaceCameraPosition: 0
+    vSyncCount: 1
     lodBias: 2
     maximumLODLevel: 0
     particleRaycastBudget: 4096

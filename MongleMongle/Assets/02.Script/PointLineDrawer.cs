@@ -66,7 +66,7 @@ public class PointLineDrawer : MonoBehaviour
 
                     if(LineHitChecker())
                     {
-                        Debug.Log("Fuck");
+                        //Debug.Log("Fuck");
                     }
                 }
             }
