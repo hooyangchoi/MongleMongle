@@ -44,7 +44,7 @@ public class GameController : MonoBehaviour
     public event LoadingEnd OnLoadingEnd;
 
     // Use this for initialization
-    void Start ()
+    void Awake ()
     {
         m_nThemeId = 1;
         m_nStageId = 1;

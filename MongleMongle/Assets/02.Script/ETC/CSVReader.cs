@@ -109,7 +109,7 @@ public static class CSVReader
     {
         List<string> stageList = new List<string>();
 
-        TextAsset ta = Resources.Load<TextAsset>("CSV/Theme");
+        TextAsset ta = Resources.Load<TextAsset>("CSV/Stage");
 
         string str = ta.text;
 
