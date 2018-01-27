@@ -7,4 +7,5 @@ Id,ContainerId,PositionX,PositionY,PositionZ,StartPointerId,EndPointerId
 6,1,-1,1,0,5,7
 7,1,0,2,0,6,8
 8,1,1,2,0,7,9
-9,1,-1,2,0,8,0
+9,1,-1,2,0,8,10
+10,1,0,3,0,9,0
