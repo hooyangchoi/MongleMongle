@@ -35,13 +35,7 @@ public class LobbyUIController : MonoBehaviour
     {
         if(bRight)
         {
-            GameController.Inst.ThemeId += 1;
-        }
-        else
-        {
-            GameController.Inst.ThemeId -= 1;
-        }
 
-        SetTheme(GameController.Inst.ThemeId);
+        }
     }
 }

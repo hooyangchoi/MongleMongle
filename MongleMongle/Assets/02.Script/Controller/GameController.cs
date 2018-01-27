@@ -23,15 +23,7 @@ public class GameController : MonoBehaviour
     public int ThemeId
     {
         get { return m_nThemeId; }
-        set
-        {
-            m_nThemeId = value;
-
-            if (m_nThemeId == 0)
-                m_nThemeId = GameData.Inst.ThemeList.Count;
-            else if (m_nThemeId > GameData.Inst.ThemeList.Count)
-                m_nThemeId = 1;
-        }
+        set { m_nThemeId = value; }
     }
 
     public int StageId
