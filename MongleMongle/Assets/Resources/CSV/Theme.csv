@@ -1,6 +1,9 @@
 Id,ThemeType,ThemeName,StageCount,BackgroundSoundName
-1,1,Global,3,Mongle
-2,2,Game,4,Mongle
-3,3,Jam,2,Mongle
-4,1,2018,3,Mongle
-5,2,Connect21,3,Mongle
+1,1,Blue,5,blue
+2,2,Brown,5,brown
+3,3,Dark,5,dark
+4,4,Green,5,green
+5,5,Orange,5,orange
+6,6,Purple,5,purple
+7,7,Red,5,red
+8,8,White,5,white
