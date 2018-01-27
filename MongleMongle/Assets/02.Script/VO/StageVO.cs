@@ -8,6 +8,7 @@ public class StageVO
     public int StageId;
     public int ThemeId;
     public string StageName;
+    public string BackgroundName;
 
     public StageVO(string sStage)
     {
@@ -17,5 +18,6 @@ public class StageVO
         StageId = int.Parse(sArr[1]);
         ThemeId = int.Parse(sArr[2]);
         StageName = sArr[3];
+        BackgroundName = sArr[4];
     }
 }
