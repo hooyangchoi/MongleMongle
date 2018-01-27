@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LobbyUIController : MonoBehaviour
 {
     private Transform m_trnfCanvas;
+    private Transform m_trnfScrollView;
 
     private Image m_imgBG;
     private Text m_txtThemeName;
@@ -15,8 +16,10 @@ public class LobbyUIController : MonoBehaviour
         m_trnfCanvas = GameObject.Find("Canvas").transform;
         m_imgBG = m_trnfCanvas.Find("BG").GetComponent<Image>();
         m_txtThemeName = m_trnfCanvas.Find("ThemeName/Text").GetComponent<Text>();
+        m_trnfScrollView = m_trnfCanvas.Find("ScrollView");
 
         SetTheme(1);
+        m_trnfScrollView.gameObject.SetActive(true);
     }
 	
 	// Update is called once per frame
