@@ -18,6 +18,12 @@ public class StageVO
         StageId = int.Parse(sArr[1]);
         ThemeId = int.Parse(sArr[2]);
         StageName = sArr[3];
-        BackgroundName = sArr[4];
+
+        BackgroundName = "";
+
+        for (int i = 0; i < sArr[4].Length - 1; i++)
+        {
+            BackgroundName += sArr[4][i].ToString();
+        }
     }
 }

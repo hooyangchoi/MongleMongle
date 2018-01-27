@@ -27,4 +27,19 @@ public class GameData
             ThemeList.Add(new ThemeVO(CSVReader.GetThemeVO(i + 1)));
         }
     }
+
+    public List<Sprite> GetStageSpriteList(int nThemeId)
+    {
+        ThemeVO theme = ThemeList.Find(a => a.Id == nThemeId);
+        Sprite[] sprtArr = Resources.LoadAll<Sprite>("Image/" + theme.BackgroundSoundName);
+
+        List<Sprite> sprtList = new List<Sprite>();
+
+        for(int i=0;i<sprtArr.Length;i++)
+        {
+            sprtList.Add(sprtArr[i]);
+        }
+
+        return sprtList;
+    }
 }

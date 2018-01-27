@@ -11,6 +11,8 @@ public class PointerMaker : MonoBehaviour
 
         List<GameObject> objList = new List<GameObject>();
 
+        Debug.Log(pointerContainer.PointerCount);
+
         for (int i = 0; i < pointerContainer.PointerCount; i++)
         {
             GameObject obj = Resources.Load<GameObject>("Pointer/" + pointerContainer.Theme.ToString());
