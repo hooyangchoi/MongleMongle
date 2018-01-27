@@ -9,6 +9,11 @@ public class InfinitiButton : MonoBehaviour {
 
     void Start()
     {
+        Init();
+    }
+
+    public void Init()
+    {
         ThemeVO theme = GameData.Inst.ThemeList.Find(a => a.Id == GameController.Inst.ThemeId);
 
         var cellData = Enumerable.Range(0, theme.StageCount)
