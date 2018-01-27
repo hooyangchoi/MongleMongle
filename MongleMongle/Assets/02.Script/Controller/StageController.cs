@@ -64,6 +64,7 @@ public class StageController : MonoBehaviour
                 RecognizeNextPointer(pointer.EndPointerId);
             }
         }
+ 
     }
 
     public void HitCorrectPointer(int nId)
