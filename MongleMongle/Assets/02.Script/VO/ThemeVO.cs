@@ -21,7 +21,12 @@ public class ThemeVO
         ThemeType = int.Parse(sArr[1]);
         ThemeName = sArr[2];
         StageCount = int.Parse(sArr[3]);
-        BackgroundSoundName = sArr[4];
+        BackgroundSoundName = "";
+        
+        for(int i=0;i<sArr[4].Length - 1;i++)
+        {
+            BackgroundSoundName += sArr[4][i].ToString();
+        } 
 
         StageList = new List<StageVO>();
 

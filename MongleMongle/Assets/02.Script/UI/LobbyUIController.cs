@@ -8,6 +8,7 @@ public class LobbyUIController : MonoBehaviour
     private Transform m_trnfCanvas;
     private Transform m_trnfScrollView;
 
+    private InfinitiButton m_infinityButton;
     private Image m_imgBG;
     private Text m_txtThemeName;
 	// Use this for initialization
@@ -17,25 +18,25 @@ public class LobbyUIController : MonoBehaviour
         m_imgBG = m_trnfCanvas.Find("BG").GetComponent<Image>();
         m_txtThemeName = m_trnfCanvas.Find("ThemeName/Text").GetComponent<Text>();
         m_trnfScrollView = m_trnfCanvas.Find("ScrollView");
+        m_infinityButton = m_trnfScrollView.GetComponent<InfinitiButton>();
 
         SetTheme(1);
         m_trnfScrollView.gameObject.SetActive(true);
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void SetTheme(int nThemeId)
     {
         ThemeVO themevo = GameData.Inst.ThemeList.Find(a => a.Id == nThemeId);
 
         m_txtThemeName.text = themevo.ThemeName;
+
+        SoundController.Inst.StopBGM();
+        SoundController.Inst.PlayBGM(themevo.BackgroundSoundName);
     }
 
     public void ThemeChange(bool bRight)
     {
+
         if(bRight)
         {
             GameController.Inst.ThemeId += 1;
@@ -46,5 +47,6 @@ public class LobbyUIController : MonoBehaviour
         }
 
         SetTheme(GameController.Inst.ThemeId);
+        m_infinityButton.Init();
     }
 }
