@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongleMongle", "MongleMongle.csproj", "{F475D272-ABEB-D9E0-7209-030BC207CCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongleMongle.Editor", "MongleMongle.Editor.csproj", "{014B66B0-DA46-B034-BCDE-045FD468ED2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F475D272-ABEB-D9E0-7209-030BC207CCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F475D272-ABEB-D9E0-7209-030BC207CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F475D272-ABEB-D9E0-7209-030BC207CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F475D272-ABEB-D9E0-7209-030BC207CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014B66B0-DA46-B034-BCDE-045FD468ED2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B66B0-DA46-B034-BCDE-045FD468ED2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B66B0-DA46-B034-BCDE-045FD468ED2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B66B0-DA46-B034-BCDE-045FD468ED2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
