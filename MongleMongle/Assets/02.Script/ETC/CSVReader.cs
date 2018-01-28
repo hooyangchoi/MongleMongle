@@ -13,7 +13,7 @@ public static class CSVReader
         string str = ta.text;
 
         string[] sArr = str.Split('\n');
-
+        Debug.Log(sArr.Length);
         for(int i=1;i<sArr.Length;i++)
         {
             if (string.IsNullOrEmpty(sArr[i]))
@@ -21,7 +21,7 @@ public static class CSVReader
 
             string[] sArrRow = sArr[i].Split(',');
 
-            if(sArrRow[0] == nThemaId.ToString() && sArrRow[1] == nStageId.ToString())
+            if(sArrRow[1] == nThemaId.ToString() && sArrRow[2] == nStageId.ToString())
             {
                 sPointerContainer = sArr[i];
                 break;

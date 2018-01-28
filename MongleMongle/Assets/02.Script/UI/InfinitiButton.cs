@@ -24,5 +24,6 @@ public class InfinitiButton : MonoBehaviour {
            .ToList();
 
         scrollView.UpdateData(cellData);
+        
     }
 }

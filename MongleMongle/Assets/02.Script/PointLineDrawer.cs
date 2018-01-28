@@ -10,6 +10,14 @@ public class PointLineDrawer : MonoBehaviour
 
     private bool m_bMousBtnDown = false;
 
+    public LineRenderer lineRenderer
+    {
+        get
+        {
+            return m_lineRenderer;
+        }
+    }
+
     public delegate void PointerHit(int nId);
     public event PointerHit OnPointerHit;
 
@@ -66,7 +74,7 @@ public class PointLineDrawer : MonoBehaviour
 
                     if(LineHitChecker())
                     {
-                        //Debug.Log("Fuck");
+                        GameController.Inst.FailStage();
                     }
                 }
             }

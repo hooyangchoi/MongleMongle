@@ -63,6 +63,8 @@ public class SoundController : MonoBehaviour
 
     public void PlayBGM(string sSoundName)
     {
+        if (m_asBgm.clip != null && m_asBgm.clip.name == sSoundName)
+            return;
 
         AudioClip ac = m_aclistBGM.Find(a => a.name == sSoundName);
 
